@@ -1,0 +1,22 @@
+.gallery
+    padding: 10px
+    width: 50%
+    @media screen and ( max-width: 576px )
+        width: 100%
+.active
+    width: 100%
+    img
+        width: 100%
+
+
+.thumbnails
+    display: flex
+    flex-direction: row
+
+.thumb
+    width: 50px
+    height: 50px
+    &:hover
+        transform: scale(1.1)
+        cursor: pointer
+

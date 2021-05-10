@@ -1,0 +1,51 @@
+.page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    /* align-items: center; */
+}
+.back {
+    width: 30%;
+    display: block;
+    font-weight: 300;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.back a {
+    margin-top: 1rem;
+}
+.contentarea {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+.phone {
+    display: flex;
+    flex-direction: column;
+    color: #3e3e3e;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.phone a {
+    font-size: 2rem;
+    color: #734C2F;
+}
+.messengers {
+    display: flex;
+    flex-direction: row;
+}
+.messengers a {
+    padding: 1rem;
+
+}
+
+@media (max-width: 767.98px) {
+    .page {
+        flex-direction: column;
+    }
+    .contentarea {
+        width: 100%;
+    }
+}
